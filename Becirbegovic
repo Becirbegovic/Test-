@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Prüfung</title>
+		<meta charset="UTF-8">	
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Prüfung</h1>		
+		</header>
+		<div>
+			<form action="berechnen.php" method="post">
+				<label for="name">Ihr Name</label>
+				<input type="text" name="name" id="name" required>
+				<br>
+				<label for="zahl1">Alter</label>
+				<input type="number" name="zahl1" id="Alter" required min="1">
+					<br>
+				<input type="submit" value="senden">
+			</form> 
+				
+				
+
+		<div> 
+
+<?php
+
+//session start();
+//if(isset$_POST["name"])){
+//$SESSION["name"]=$POST["name"];
+//$oper;
+//$_SESSION["senden"]=(isset($_SESSION["senden"]))?$_SESSION["senden"]:array();
